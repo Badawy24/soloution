@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.bg-light {
+  background-color: #2c85a9 !important;
+}
+.login {
+  background-image: url(../img/login.png);
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 94vh;
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+}
+.form .input_form {
+  margin: 50px 0;
+}
+.form .input_form input {
+  padding: 15px;
+}
+.form .form-check {
+  display: inline-block;
+  margin: 20px 40px 20px 0px;
+  color: beige;
+  font-size: 18px;
+}
+
+.button_form {
+  margin: 30px;
+  text-align: center;
+}
+.button_form button {
+  margin: auto;
+  padding: 15px;
+  font-size: 20px;
+  width: 180px;
+}
+
+/*****************************************/
+.record .user {
+  padding: 10px;
+  font-size: 20px;
+}
+.record .user span {
+  color: red;
+}
+.record .row {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+
+.record .userData {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.record .dise {
+  padding: 10px;
+  font-size: 20px;
+}
+.record .dise input {
+  display: inline-block;
+  margin: 20px;
+}
+/**************/
+.icon {
+  color: red;
+}
+.alarm p {
+  padding: 20px;
+  margin: 20px;
+  font-size: 20px;
+}
+.alarm .danger {
+  font-size: 30px;
+  color: red;
+}
